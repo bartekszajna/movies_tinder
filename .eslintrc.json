@@ -5,6 +5,8 @@
   },
   "extends": [
     "airbnb",
+    "react-app",
+    "react-app/jest",
     "eslint:recommended",
     "plugin:react/recommended",
     "prettier"
@@ -21,6 +23,13 @@
     "no-tabs": 0,
     "prefer-template": 0,
     "no-unused-vars": 0,
-    "no-use-before-define": 0
+    "no-use-before-define": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/react-in-jsx-scope": 0,
+    "react/jsx-uses-react": "warn",
+    "react/jsx-filename-extension": 0,
+    "react/jsx-uses-vars": "warn",
+    "react/prop-types": 0
   }
 }
